@@ -1,0 +1,818 @@
+body{
+    margin: 0px;
+}
+
+header{
+    background: radial-gradient(96.32% 571.83% at 98.4% 19.88%, #8FB3FF 0%, #9D6BE8 27.72%, #DE2778 54.29%, #B03DE2 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 0px 140px;
+ 
+}
+
+.logo{
+    width: 113px;
+font-family: 'Lekton';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+color: white;
+
+
+}
+.headerbtn{
+    height: 42px;
+width: 154px;
+border-radius: 21px;
+border: 0px;
+background: #FFFFFF33;
+color: white;
+font-family: Inter;
+font-size: 15px;
+font-weight: 500;
+text-align: center;
+
+}
+
+a{
+    margin-right: 35px;
+    text-decoration: none;
+    color: white;
+    font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+text-align: left;
+
+
+}
+
+/* ..................................HERO SECTION DESIGN........................... */
+
+.hero-section{
+    /* background: radial-gradient(96.32% 571.83% at 98.4% 19.88%, #8FB3FF 0%, #9D6BE8 27.72%, #DE2778 54.29%, #B03DE2 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected ; */
+    height: 683.376220703125px;
+    background-image: url("images/headerbg.png");
+  background-color: #cccccc;
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+ 
+}
+
+.hero-text{
+    position: absolute;
+    bottom: -300px;
+    padding-left: 140px;
+}
+
+.hero-title{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 94px;
+color:  rgba(83, 32, 15, 0.82);
+margin-block-start: 0em;
+margin-block-end: 0em;
+}
+
+.hero-desc{
+width: 490px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #425466;
+}
+
+.request{
+width: 202px;
+height: 52px;
+background: #231A36;
+border-radius: 26px;
+border: 0px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+text-align: center;
+color: #FFFAF9;
+display: flex;
+justify-content: center;
+margin-top: 40px;
+}
+
+
+.positiongrowth{
+    position: absolute;
+
+left: 953px;
+top: 120px;
+
+}
+.growthcard{
+    height: 218px;
+width: 188px;
+
+
+}
+.growthgroup{
+    position: relative;
+}
+.growthprofile{
+    height: 80px;
+width:
+80px;
+position: absolute;
+left: 130px;
+top: -20px;
+
+}
+.mediatype{
+    position: absolute;
+    height: 390px;
+width: 320px;
+left: 1120px;
+top: 140px;
+
+
+
+}
+.follower{
+    height: 350px;
+width: 320px;
+left: 870px;
+top: 350px;
+position: absolute;
+
+
+}
+
+.fourteen{
+    position: absolute;
+    height: 100px;
+width: 200px;
+left: 1238px;
+top: 475px;
+}
+
+.reaction{
+    position: absolute;
+    height: 200px;
+width: 250px;
+left: 1200px;
+top: 580px;
+
+
+}
+
+/* .......................................................CLIENT SECTION DESIGN.................................... */
+
+.clients{
+    font-family: 'Lato';
+    padding-top: 350px;
+}
+.clients-title{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+text-align: center;
+color: #B2B7BE;
+
+}
+.client-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 130px;
+}
+
+.chase{
+    height: 25.46157455444336px;
+width: 137.00131225585938px;
+}
+
+.asana{
+    height: 24.07601547241211px;
+width: 121.99851989746094px;
+
+}
+.google{
+    height: 32.25944900512695px;
+width: 98.00145721435547px;
+}
+
+.buzzfeed{
+    height: 19.8536434173584px;
+width: 120px;
+}
+
+.toggl{
+height: 32px;
+width: 95px;
+left: 974px;
+top: 960px;
+border-radius: 0px;
+
+}
+.walmart{
+    height: 32.12890625px;
+width: 132.798095703125px;
+}
+
+/* .........................................................SOLUTION SECTION............................. */
+
+.solution{
+    padding: 0px 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.solution-title{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+text-align: center;
+color: #1F1F26;
+margin-block-start: 0.83em;
+margin-block-end: 0.3em;
+
+}
+
+.solution-desc{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+text-align: center;
+color: #426666;
+width: 551px;
+
+}
+
+.solution-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 720px;
+    padding: 30px 90px;
+}
+
+.solution-div.community{
+    width: 800px;
+}
+.solution-text{
+    width: 340px;
+}
+
+.solutiontext-label{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+text-transform: uppercase;
+
+margin-block-start: 0.83em;
+margin-block-end: 0.1em;
+
+}
+
+.solutiontext-label.influencer{
+    color: #B33CDB;
+}
+
+
+.solutiontext-title{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+color: #1F1F26;
+margin-block-start: 0em;
+margin-block-end: 0em;
+}
+
+.solutiontext-desc{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #426666;
+
+}
+.learnmore{
+    width: 105px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+color: #42424A;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.influencercard{
+    height: 282px;
+width: 240.47853088378906px;
+}
+
+
+.solutiontext-label.community{
+    color: #FBBA33;
+   
+}
+
+.communitycard{
+    height: 283.1539611816406px;
+width: 292.92230224609375px;
+}
+
+
+.solutiontext-label.services{
+    color: #DE2879;   
+}
+
+.servicescard{
+    height: 297px;
+width: 269px;
+
+
+}
+.solutiontext-title.community{
+width: 351px;
+
+
+}
+
+/* .............................................................FIGURES SECTION..................... */
+
+.figures{
+    background: #231A36;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px;
+}
+.figure-title{
+    width: 734px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+text-align: center;
+color: #FFFFFF;
+margin-block-start: 0em;
+margin-block-end: 0em;
+}
+
+.figure-desc{
+
+width: 562px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+text-align: center;
+color: #7B9292;
+}
+
+.numbers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 750px;
+    margin-top: 80px;
+}
+.number{
+    width: 98px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+color: #FFFFFF;
+margin-block-start: 0em;
+margin-block-end: 0em;
+
+}
+
+.label{
+
+width:
+109px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: #7B9292;
+margin-block-start: 0em;
+margin-block-end: 0em;
+}
+
+/* .........................................EVERYNEED SECTION ......................... */
+
+.everyneed{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 30px;
+
+}
+
+.everyneed-title{
+width: 489px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+text-align: center;
+color: #1F1F26;
+margin-block-start: 0em;
+margin-block-end: 0em;
+}
+
+.everyneed-desc{
+width: 551px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+text-align: center;
+color: #426666;
+margin-block-start: 0em;
+margin-block-end: 0em;
+}
+
+.everyneed-card{
+    height: 175px;
+width: 272px;
+position: absolute;
+background-color: white;
+right: 60px;
+top: 210px;
+padding: 20px;
+
+}
+
+.card-title{
+width: 119px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+text-align: center;
+color: #3B3B43;
+margin-block-start: 0em;
+margin-block-end: 0em;
+}
+
+.like-follow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block-start: 0em;
+margin-block-end: 0em;
+width: 200px;
+margin-top: 20px;
+}
+
+.follower-title{
+    width: 63px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    color: #1F1F26;
+    margin-block-start: 0em;
+margin-block-end: 0em;
+}
+
+.follower-desc{
+width: 92px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+text-align: center;
+color: #ADADBA;
+margin-block-start: 0em;
+margin-block-end: 0em;
+}
+
+.likes-title{
+width: 73px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+text-align: center;
+color: #1F1F26;
+margin-block-start: 0em;
+margin-block-end: 0em;
+}
+
+.likes-desc{
+width: 71px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+text-align: center;
+color: #ADADBA;
+margin-block-start: 0em;
+margin-block-end: 0em;
+}
+
+.everyneedimg1{
+    height: 300px;
+width: 360px;
+}
+
+.learnmore-purple{
+    width: 105px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+text-align: center;
+color: #B33CDB;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-top: 20px;
+}
+
+.images-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+width: 1200px;
+padding: 60px 0px;
+}
+
+.imagecard{
+    position: relative;
+}
+
+/* ....................................HAPPY CLIENT SECTION..................... */
+
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.testimonials-title{
+    width: 286px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    color: #1F1F26; 
+}
+
+.testimonials-desc{
+width: 551px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+text-align: center;
+color: #426666;
+}
+
+.testimonialsimg{
+    height: 477px;
+width: 345px;
+}
+
+.flogo{
+    height: 70px;
+width: 70px;
+}
+
+.quote{
+width: 477px;
+font-family: 'Inter';
+font-style: italic;
+font-weight: 500;
+font-size: 22px;
+color: #6D6D6D;
+}
+
+.testimonial-section{display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    width: 976px;
+}
+
+    .testimonial-row{
+       
+width: 477px;
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    }
+
+    .author-name{
+        font-family: Lato;
+        font-size: 25px;
+        font-weight: 700;
+        text-align: left;
+        color: #1C1C1D;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        
+    }
+
+    .author-title{
+
+width: 132px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+color: #9C988F;
+    }
+
+    .arrow-side{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    /* .......................................SUBSCRIBE SECTION.................................. */
+
+    .subscribe{
+        height: 100px;
+width: 976px;
+background-image: url("images/headerbg.png");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 
+  20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+  margin: 100px 200px;
+
+
+
+    }
+
+    .subscribe-title{
+width: 515px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+text-align: center;
+color: #FFFFFF;
+margin-block-start: 0em;
+margin-block-end: 0em;
+    }
+
+    .subscribe-desc{
+width: 551px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+text-align: center;
+color: rgba(255, 255, 255, 0.83);
+    }
+
+    .subscribebtn{
+        margin-block-start: 2em;
+        margin-block-end: 0em;
+        height: 52px;
+width: 202px;
+background: #231A36;
+border: 0px;
+border-radius: 
+26px;
+display: flex;
+justify-content: center;
+
+
+    }
+
+    .btntext{
+        display: flex;
+align-items: center;
+justify-content: space-between;
+width: 130px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+text-align: center;
+color: #FFFAF9;
+
+    }
+
+    /* ........................FOOTER SECTION........................... */
+
+    .div1{
+        display: flex;
+        justify-content: space-between;
+        margin: 50px 200px;
+
+    }
+    .footerlogo{
+width: 113px;
+height: 30px;
+font-family: 'Lekton';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+color: #1A1A1A;
+}
+
+.link{
+width: 63px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+color: #333333;
+opacity: 0.94;
+}
+
+.socialhandle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+width: 88px;
+}
+.footerlinks{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 325px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+color: #333333;
+opacity: 0.94;
+
+}
+.facebook{
+    height: 12px;
+width: 6px;
+}
+
+.insta{
+    height: 12px;
+width: 12px;
+}
+
+.youtube{
+    height: 9px;
+width: 13px;
+}
+
+.divider{
+    border: 1px solid #E3E3EA;
+   
+width: 976px;
+
+}
+.copyright{
+width: 150px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+color: #959595;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
